@@ -1,12 +1,14 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
+<h1>Single Post</h1>
 <h2 class="post-title">{{ post.title }}</h2>
+<div class="blog">
 <p class="post-body">{{ post.body }}</p>
 <!-- TODO add author w/ link to author's blog -->
 <p class="post-author">
     written on {{ post.created.strftime('%Y-%m-%d') }}
 </p>
+</div>
 
 {% endblock %}

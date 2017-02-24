@@ -2,16 +2,28 @@ body {
     font-family: sans-serif;
     width: 800px;
     margin: 0 auto;
-    padding: 10px;
+    background: url("https://s-media-cache-ak0.pinimg.com/736x/e7/78/76/e77876dfb02f5ca98228c46e9647a237.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 .error {
     color: red;
 }
 
-label {
-    display: block;
-    font-size: 20px;
+.blog {
+    background-color:#755435;
+    border-color: black;
+    border-width: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+
+}
+.blog2 {
+    font-size: 30px;
+    font-weight:bold;
+}
+.center {
+    text-align:center;
 }
 
 input[type=text],
@@ -19,7 +31,13 @@ input[type=password],
 input[type=email] {
     width: 400px;
     font-size: 20px;
-    padding: 2px;
+    padding: 5px;
+    background-color:#755435;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
+
+
 }
 
 textarea {
@@ -27,11 +45,25 @@ textarea {
     height: 200px;
     font-size: 17px;
     font-family: monospace;
+    background-color:#755435;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
 }
 
 input[type=submit] {
-    font-size: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:#755435;
+    border-color: black;
+    border-width: 5px;
+    border-radius: 10px;
 }
+input[type=submit]:hover {
+    background-color: #7E7E7E;
+}
+
+
 
 hr {
     margin: 20px auto;
@@ -55,18 +87,51 @@ hr {
     font-style: italic;
     font-size: 12px;
 }
+h1 {
+    text-align: center;
+    padding-bottom:50px;
+    color:#7E7E7E;
+}
 
 nav ul {
-    padding: 0;
     display: inline-block;
+    text-align:center;
+    width:100%;
+    margin-left:-20px;
+    
+    
 }
 
 nav ul li {
     list-style: none;
     display: inline-block;
-    margin-right: 15px;
-}
+    padding-left:20px;
+    font-weight: bold;
+    font-size: 30px;
 
+    
+
+}
+form {
+    font-size: 25px;
+    font-weight: bold;
+    color:#7E7E7E;
+    font
+}
+nav{
+    list-style: none;
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/98/15/44/98154428d93675d50514ba0518235589.jpg") no-repeat center center fixed;
+}
 nav #user-account {
-    float: right;
+    float: center;
+}
+li {
+    list-style: none;
+}
+a:hover{
+    color:white;
+}
+a {
+    color:#7E7E7E;
+    text-decoration: none;
 }
